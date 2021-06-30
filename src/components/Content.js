@@ -34,12 +34,9 @@ const data = [
 
 const Content = () => {
   return (
-    <div className="flex flex-col max-w-screen-xl ml-1">
-      <div className="">
-        <ContentItems data={data} />
-        {/* <TeaserItem class="my-5 md:my-0" :item="item" :class="{'flex flex-col  md:flex-row-reverse bg-right ': item.id % 2 === 0, 'bg-blue-100' : item.id % 2 !== 0}"/> */}
-      </div>
-    </div>
+    // <div className="flex flex-col max-w-screen-xl mx-auto">
+    <ContentItems data={data} />
+    // </div>
   );
 };
 
