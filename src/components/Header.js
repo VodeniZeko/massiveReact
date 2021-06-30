@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="container max-w-screen-xl px-10 mx-auto ">
+      <div className="container w-full max-w-screen-xl px-10 mx-auto ">
         <div className="flex px-10 mt-10 h-28">
           <div className="hidden w-3/6 ml-20 sm:flex">
             <div className="flex flex-col ">

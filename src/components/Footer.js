@@ -6,11 +6,11 @@ const Footer = () => {
       <footer className="flex flex-col max-w-screen-xl mx-auto">
         <div className="flex flex-col-reverse justify-between pb-4 bg-blue-800 sm:p-0 sm:flex sm:flex-row w-100">
           <div className="flex flex-col justify-center text-center text-white sm:w-6/12 ">
-            <div className="w-10/12 mx-auto sm:mr-2">
-              <p className="pb-4 text-2xl font-semibold">
-                Talk directly to a licensed Insurance agency in oyur area!
+            <div className="w-7/12 mx-auto text-left sm:mr-12">
+              <p className="pb-4 text-xl md:text-2xl font-semibold">
+                Talk directly to a licensed Insurance agency in your area!
               </p>
-              <span className="">
+              <span className="text-xs leading-6 md:text-md">
                 We're dedicated to helping you find the right Medicare
                 Supplement Insurance. If you're looking to lower your
                 out-of-pocket expenses or expand you current Medicare coverage,
