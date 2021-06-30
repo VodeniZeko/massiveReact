@@ -8,7 +8,7 @@ const SingleSection = ({ item }) => {
     <div
       style={{ backgroundImage: "url(" + abstract + ")" }}
       className={classNames(
-        "md:space-x-28 justify-center ml-1 text-center bg-left bg-no-repeat md:py-20 md:flex md:flex-row md:bg-contain ",
+        " lg:space-x-28 justify-center ml-1 text-center bg-left bg-no-repeat md:py-20 md:flex md:flex-row md:bg-contain ",
         {
           " flex flex-col md:flex-row-reverse bg-right bg-white":
             item.id % 2 === 0,
@@ -18,7 +18,7 @@ const SingleSection = ({ item }) => {
         }
       )}
     >
-      <div className=" flex mt-6 md:w-1/3 h-60">
+      <div className="md:mx-6 flex mt-6 md:w-1/3 h-60">
         <img
           className="object-cover w-full sm:object-contain md:object-cover"
           src={item.image.src}
@@ -27,14 +27,14 @@ const SingleSection = ({ item }) => {
       </div>
 
       <div className=" lg:text-left md:w-1/3">
-        <p className="pb-2 text-xl font-semibold text-blue-800 md:text-3xl opacity-80">
+        <p className="pb-2 text-2xl sm:font-semibold text-blue-800 md:text-3xl opacity-80">
           {item.title}
         </p>
-        <p className="m-3 text-xs leading-6 lg:m-0 lg:w-10/12 lg:text-gray-500 md:text-md">
+        <p className="m-3 text-sm sm:leading-6 sm:m-0 lg:w-10/12 lg:text-gray-500 md:text-md">
           {item.text}
         </p>
         <button
-          className="w-20 py-1 text-xs font-bold text-white bg-yellow-600 rounded shadow lg:w-32 lg:mt-4 md:text-sm lg:text-md xl:text-xl hover:bg-yellow-500 focus:shadow-outline focus:outline-none"
+          className="w-20 py-2 text-xs font-bold text-white bg-yellow-600 rounded shadow lg:w-32 lg:mt-4 md:text-sm lg:text-md xl:text-xl hover:bg-yellow-500 focus:shadow-outline focus:outline-none"
           type="button"
         >
           Find Plans
