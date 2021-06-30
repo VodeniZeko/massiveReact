@@ -35,7 +35,9 @@ const Header = () => {
 
           <div className="flex pt-2 mx-auto sm:justify-end sm:w-3/6 item-center">
             <div className="flex flex-col p-2">
-              <i className="text-5xl text-blue-900 las la-phone-volume"></i>
+              <button onClick={() => window.open("tel:900300400")}>
+                <i className="text-5xl text-blue-900 las la-phone-volume"></i>
+              </button>
             </div>
             <div className="pt-1 font-bold text-indigo-900">
               <p className="text-1xl md:text-2xl">866-368-7202</p>

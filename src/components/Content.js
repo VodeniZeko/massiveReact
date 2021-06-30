@@ -33,11 +33,7 @@ const data = [
 ];
 
 const Content = () => {
-  return (
-    // <div className="flex flex-col max-w-screen-xl mx-auto">
-    <ContentItems data={data} />
-    // </div>
-  );
+  return <ContentItems data={data} />;
 };
 
 export default Content;

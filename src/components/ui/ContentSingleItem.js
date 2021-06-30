@@ -4,7 +4,6 @@ import classNames from "classnames";
 import abstract from "../../assets/abstract.png";
 
 const SingleSection = ({ item }) => {
-  console.log(item);
   return (
     <div
       style={{ backgroundImage: "url(" + abstract + ")" }}

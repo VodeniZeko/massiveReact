@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 
-export function App() {
+function App() {
   return (
     <div className=" max-w-screen-xl mx-auto ">
       <Header />
@@ -13,3 +13,5 @@ export function App() {
     </div>
   );
 }
+
+export default App;
