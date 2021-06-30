@@ -13,7 +13,6 @@ const navLinks = [
 const ContentSection = ({ data }) => {
   return (
     <>
-      {/* <div className="flex flex-col max-w-screen-xl "> */}
       <ContentHero />
       <div className="flex divide-x-2 divide-gray-700 ml-1">
         {navLinks.map((link) => (
@@ -23,7 +22,6 @@ const ContentSection = ({ data }) => {
       {data.map((each) => (
         <ContentSingleItem key={each.id} item={each} />
       ))}
-      {/* </div> */}
     </>
   );
 };

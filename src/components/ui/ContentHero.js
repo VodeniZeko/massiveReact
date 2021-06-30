@@ -25,7 +25,7 @@ const ContentHero = () => {
           />
         </div>
 
-        <div className="flex justify-end -m-8 md:m-0 sm:w-screen lg:w-11/12 lg:mr-10 max-w-10/12">
+        <div className="flex justify-end -mt-8 md:m-0 sm:w-screen lg:w-11/12 lg:mr-10 max-w-10/12">
           <div className="container z-40 w-3/5 mx-auto lg:mt-14 lg:w-11/12">
             <form className="text-white bg-blue-700 rounded-lg shadow-md ">
               <div className="flex justify-center bg-blue-500 rounded-t-lg h-14 sm:h-28">
